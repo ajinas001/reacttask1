@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700");
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+
+}
+.mainbg{
+    /* background-color: rgb(203, 225, 239); */
+
+    background: rgb(245,240,242);
+ background: linear-gradient(90deg, rgba(245,240,242,1) 0%, rgb(187, 205, 231) 40%, rgb(173, 201, 232) 100%); 
+
+    position: sticky;
+
+    margin-left: 15px;
+}
+.div1{
+    font-family: sans-serif;
+
+}
+.wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+.wrapper > *{
+    /* padding: 10px; */
+    margin: 10px;
+    flex: 1 100% ;
+    border-radius: 10px;
+
+}
+.wrapper1{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+   
+}
+.wrapper1 > *{
+   
+    margin: 10px;
+    flex: 1 100% ;
+    border-radius: 10px;
+
+}
+/* .header{
+    background: tomato;
+    height:120px;
+}
+.nav{
+    background: rgb(71, 255, 191);
+    height:80px;
+} */
+
+.main{
+    background:white;
+    height:auto;
+   
+    
+    text-align: center;
+}
+.aside1{
+    background:white;
+    padding: 40px;
+}
+.m{
+    background:white;
+    height:300px;
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+    height: auto;
+}
+.a1{
+    background:white;
+    padding: 30px;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .notiicon{
+    content-visibility: hidden;
+    }
+    }
+    
+@media all and (min-width:800px){
+    .main{
+        flex: 1;
+    }
+    .main{
+        order: 1;
+    }
+    .main{
+        order: 1;
+    }
+    .main{
+        order: 1;
+    }
+   
+    
+}
+@media all and (min-width:600px){
+    
+    .aside{
+        flex: 1;
+    }
+   
+}
+@media all and (min-width:800px){
+    .m{
+        flex: 1;
+    }
+    .m{
+        order: 1;
+    }
+    .m{
+        order: 2;
+    }
+   
+    
+}
+@media all and (min-width:600px){
+    
+    .m{
+        flex: 1;
+    }
+   
+}
+.planheader{
+    font-size: 25px;
+    font-weight: 600;
+}
+.planpricenow{
+    font-size:25px ;
+}
+.planpricebutton1{
+    border-radius: 10px;
+    background-color:yellow;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    word-spacing: 4px;
+   
+   
+}
+.planpricebutton2{
+    border-radius: 10px;
+    background-color: rgb(239, 108, 108);
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    word-spacing: 4px;
+    
+}
+.planpricebutton3{
+    border-radius: 10px;
+    background-color: rgb(235, 67, 241);
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    word-spacing: 4px;
+   
+}
+.planpricebutton4{
+    border-radius: 10px;
+    background-color:lawngreen;
+
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    word-spacing: 4px;
+   
+}
+.planpricebutton5{
+    border-radius: 10px;
+    background-color: mediumslateblue;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    word-spacing: 4px;
+    
+   
+}
+.plandescription{
+    font-size:small;
+    font-weight: 500;
+    padding-left: 10px;
+    word-spacing: 3px;
+}
+.description{
+    font-size: x-small;
+}
+.strikethrough {
+    position: relative;
+  }
+  .strikethrough:before {
+    position: absolute;
+    color: red;
+    font-weight: 400;
+    content: "";
+    left: 0;
+    bottom: 50%;
+    right: 0;
+    border-top: 2px solid;
+    border-color: inherit;
+    
+    -webkit-transform:rotate(-5deg);
+    -moz-transform:rotate(-5deg);
+    -ms-transform:rotate(-5deg);
+    -o-transform:rotate(-5deg);
+    transform:rotate(-5deg);
+  }
+  .bgtitle{
+    font-family: sans-serif;
+    font-weight: 750;
+  
+  }
+  .explorefeatures{
+    font-weight: 500;
+    text-decoration: underline;
+
+  }
+  .explorefeatures:hover{
+  
+    color: rgb(138, 138, 209);
+   
+  }
+  .smallbutton1{
+    border-radius: 20px;
+    background-color: lawngreen;
+    font-size: 15px;
+  }
+  .smallbutton2{
+    border-radius: 20px;
+    background-color: mediumslateblue;
+    font-size: 15px;
+  }
+  .freestarter{
+    font-size: 27px;
+    font-weight: 600;
+  }
+  .span1{
+   margin-left: 10px;
+  }
+  .monthly{
+    background-color: rgb(190, 190, 244);
+    font-weight: 600;
+  }
+  .annually{
+    background-color: rgb(244, 244, 245);
+    font-weight: 600;
+  }
+  button{
+    opacity:1;
+  }
+  button:hover{
+   background-color: rgb(138, 138, 209);
+   color: #fff;
+  }
+
+  .month-ann-btn{
+    border: 1px solid black;
+    border-radius: 20px;
+    width:fit-content;
+    padding: 2px;
+  }
+  
+
+
+  .bottomdescription{
+    color: rgb(37, 103, 210);
+    text-align: end;
+    font-size: small;
+    padding: 5px;
+  }

@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+@media (max-width:768px){
+    #wrapper{
+        flex-direction: column;
+        height: auto;
+    }
+}
+@media (max-width:400px){
+ 
+  .downarrow{
+    visibility: hidden;
+  } 
+  .xyz{
+    font-size: small;
+  }
+}
+.smalllogo{
+    height: 30px;
+    width: 30px;
+}
+.logoimage{
+    height: 80px;
+    width: 80px;
+}
+.xyz{
+    border-radius: 5px;
+    background-color: white;
+    width: fit-content;
+    padding: 10px;
+    margin: 5px;
+    font-weight: 500;
+
+}
+
+body{
+  background: rgb(233, 233, 233);
+}
+.containe{
+  display: flex;
+  width: 100%;
+  margin: auto;
+  font-size:1vw;
+  height:99%;
+ 
+}
+nav{
+  position: sticky;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 280px;
+  height: 110vh;
+  background: #fff;
+}
+.navba{
+  width: 100%;
+
+}
+
+.log{
+  /* margin: 2rem 0 1rem 0; */
+  padding-bottom: 5rem;
+  text-align: center;
+  align-items: center;
+}
+.log img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.log h1{
+  margin-left: 1rem;
+ 
+}
+.span1{
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 18px;
+   
+  }
+  .span2{
+    font-weight: 300;
+    padding-left: 15px;
+    font-size: 15px;
+    
+  }
+
+ul{
+  margin: 0 auto;
+  list-style: none;
+  text-decoration: none;
+  text-align: left;
+
+}
+li{
+  padding-bottom: 2rem;
+  list-style: none;
+  text-decoration: none;
+  text-align: left;
+}
+li a{
+    list-style: none;
+    text-decoration: none;
+  font-size: 16px;
+  color: rgb(85, 83, 83);
+}
+
+.logou{
+  position: absolute;
+ bottom:20px;
+}
+
+
+  ul li a:hover {
+    transform: scale(1.1);
+    background-color: rgb(138, 138, 209);
+    color: #fff;
+    box-shadow: 0 0 5px #3d5ce3;
+    text-shadow:  0 0 5px #3d5ce3;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .downarrow:hover{
+    background-color:white ;
+    color: rgb(138, 138, 209);
+  }
+
+  @media (max-width:900px){
+    .logou{
+      visibility: hidden;
+    }
+   .containe {
+       
+       text-align: center;
+       height: fit-content;
+    }
+}
